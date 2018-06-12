@@ -1,2 +1,1 @@
-# build-your-own-blockchain
-Demo
+Build your own block chain  using NodeJs
