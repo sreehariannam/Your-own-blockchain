@@ -1,0 +1,35 @@
+{
+  "name": "build-your-own-blockchain",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjvenky/build-your-own-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjvenky/build-your-own-blockchain/issues"
+  },
+  "homepage": "https://github.com/kjvenky/build-your-own-blockchain#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "jest": "^23.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.2",
+    "body-parser": "^1.18.2",
+    "ws": "^4.0.0",
+    "elliptic": "^6.4.0",
+    "uuid": "^3.2.1"
+  }
+}
